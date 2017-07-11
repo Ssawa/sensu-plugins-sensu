@@ -1,4 +1,4 @@
-#Change Log
+# Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachangelog.com/)
@@ -6,6 +6,9 @@ This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachang
 ## [Unreleased]
 ### Added
 - Ruby 2.4 testing
+
+### Changed
+- handler-sensu.rb: Use Sensu 0.26's "client:" unique client format for remediation.
 
 ## [1.1.0] - 2017-06-25
 ### Added
